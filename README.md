@@ -1,70 +1,187 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <img src="./calc.svg" alt="logo" width="140"  height="auto" />
+  <br/>
+  <h1><b>Math Magician</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 About the Project <a name="about-project"></a>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Math Magician** is an online platform tailored for those passionate about mathematics. Functioning as a Single Page App (SPA), it empowers users to execute elementary computations while also uncovering serendipitous math-oriented quotations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This endeavor aims to craft a user-intuitive calculator application, accessible across devices linked to the internet. Beyond arithmetic capabilities, it offers motivational and contemplative mathematical quotes, aiming to spark creativity in users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>React.js</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+- **Simple calculations**
+- **Generate random quotes**
+- **Use API**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+ [Live Demo Link](coming soon..)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+In order to run this project you need text editor like VSCode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```
+  git clone https://github.com/Kccendana/mathMagicians.git
+  cd mathMagicians
+```
+### Install 
+
+```npm install ```
+```npm run start ``` 
+
+### Usage
+
+To run the project, open it through live server or double click the index.html
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+To run tests, run the following command:
+
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Katherine Cendana**
+
+- GitHub: [@Kccendana](https://github.com/Kccendana)
+- Twitter: [@kc_telyn](https://twitter.com/kc_telyn)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/katherinecendana/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Add modal**
+- [ ] **Make the website responsive**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Kccendana/mathMagicians/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to follow this project and hit the star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+-I would like to thank Microverse for helping me improve my skills in web design
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+- **How can I get a copy of the project and save it in my desktop?**
+
+  - You can download the whole folder and save it in your computer or you can clone this repository.
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
