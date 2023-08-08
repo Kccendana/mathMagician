@@ -65,7 +65,7 @@ This endeavor aims to craft a user-intuitive calculator application, accessible 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
- [Live Demo Link](coming soon..)
+ [Live Demo Link](https://kccendana.github.io/mathMagician/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
