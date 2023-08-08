@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import './calculator.css';
 
 const Calculator = () => (
   <div className="calc-grid">
