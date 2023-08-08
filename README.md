@@ -85,8 +85,8 @@ Clone this repository to your desired folder:
 
 
 ```
-  git clone https://github.com/Kccendana/mathMagicians.git
-  cd mathMagicians
+  git clone https://github.com/Kccendana/mathMagician.git
+  cd mathMagician
 ```
 ### Install 
 
@@ -146,7 +146,7 @@ npx eslint .
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kccendana/mathMagicians/issues).
+Feel free to check the [issues page](https://github.com/Kccendana/mathMagician/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
