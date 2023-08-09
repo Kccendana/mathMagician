@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 import './calculator.css';
+import calculate from '../logic/calculate';
 
 function Calculator() {
+  const [calculatorData, setCalculatorData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+  const handleButtonClick = (event) => {
+    const clickedBtn = event.target.textContent;
+    const newValue = calculate(calculatorData, clickedBtn);
+    setCalculatorData(newValue);
+  };
+  const { total, operation, next } = calculatorData;
   const Data = [
     {
       label: 'AC',
@@ -104,11 +116,15 @@ function Calculator() {
   return (
     <div className="calc-grid">
       <div className="output">
-        <div className="prev-operand" />
-        <div className="curr-operand" />
+        <div className="curr-operand">{ next || operation || total || 0 }</div>
       </div>
       {Data.map((num) => (
-        <Button key={num.id} label={num.label} className={num.className} />
+        <Button
+          key={num.id}
+          label={num.label}
+          className={num.className}
+          handleButtonClick={handleButtonClick}
+        />
       ))}
     </div>
   );
