@@ -43,7 +43,11 @@ const Quote = () => {
   }
 
   if (error) {
-    return <div className="error">{error}</div>;
+    return (
+      <div className="error-wrapper">
+        <div className="error">{error}</div>
+      </div>
+    );
   }
 
   return (
