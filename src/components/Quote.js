@@ -10,7 +10,7 @@ const Quote = () => {
     },
   ]);
   const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchQuote = async () => {
@@ -27,7 +27,7 @@ const Quote = () => {
         setQuotes(data[0]);
         setLoading(false);
       } catch (error) {
-        setError(error);
+        setError(error.message);
         setLoading(false);
       }
     };
@@ -35,7 +35,11 @@ const Quote = () => {
   }, []);
 
   if (loading) {
-    return <div className="loading" />;
+    return (
+      <div className="load-wrapper">
+        <div className="loader" />
+      </div>
+    );
   }
 
   if (error) {

@@ -26,6 +26,13 @@
   align-items: center;
 }
 
+.load-wrapper {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .loader {
   border: 16px solid #f3f3f3; /* Light grey */
   border-top: 16px solid #686a6b; /* Blue */
