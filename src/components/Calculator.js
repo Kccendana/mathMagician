@@ -114,19 +114,23 @@ function Calculator() {
   ];
 
   return (
-    <div className="calc-grid">
-      <div className="output">
-        <div className="curr-operand">{ next || operation || total || 0 }</div>
+    <div className="container">
+      <h1 className="title">Let us do some calculations!!</h1>
+      <div className="calc-grid">
+        <div className="output">
+          <div className="curr-operand">{ next || operation || total || 0 }</div>
+        </div>
+        {Data.map((num) => (
+          <Button
+            key={num.id}
+            label={num.label}
+            className={num.className}
+            handleButtonClick={handleButtonClick}
+          />
+        ))}
       </div>
-      {Data.map((num) => (
-        <Button
-          key={num.id}
-          label={num.label}
-          className={num.className}
-          handleButtonClick={handleButtonClick}
-        />
-      ))}
     </div>
+
   );
 }
 
