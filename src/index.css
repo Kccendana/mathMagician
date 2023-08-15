@@ -32,3 +32,17 @@ code {
     'Courier New',
     monospace;
 }
+
+.home-wrapper {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 10%;
+  gap: 1.5em;
+}
+
+.home-content {
+  font-size: 1.25em;
+  width: 40em;
+}
