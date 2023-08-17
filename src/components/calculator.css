@@ -47,3 +47,11 @@ button:hover {
 .bgColor {
   background-color: orange;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 4em auto;
+}
